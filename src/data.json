@@ -1,0 +1,21 @@
+{
+  "name": "Jane Doe",
+  "nav": [
+    {
+      "name": "About",
+      "key": "#about"
+    },
+    {
+      "name": "Experience",
+      "key": "#experience"
+    },
+    {
+      "name": "Projects",
+      "key": "#projects"
+    },
+    {
+      "name": "Contact",
+      "key": "#contact"
+    }
+  ]
+}
