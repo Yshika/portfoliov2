@@ -1,0 +1,43 @@
+@import '../../styles/index.scss';
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+
+  &-title {
+    @include heading;
+  }
+
+  &-list {
+    @include heading-secondary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+
+    .nav-link {
+      color: $heading_color;
+    }
+  }
+
+  &-menu {
+    display: none;
+  }
+
+  @include responsive('small') {
+    padding: 2rem 2rem;
+    width: 100%;
+
+    &-list {
+      display: none;
+    }
+
+    &-menu {
+      display: block;
+      height: 1.5rem;
+      width: 1.5rem;
+    }
+  }
+}

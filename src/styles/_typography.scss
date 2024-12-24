@@ -1,0 +1,12 @@
+
+@mixin heading-secondary {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: $heading_color;
+}
+
+@mixin heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: $heading_color;
+}
