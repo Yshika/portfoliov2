@@ -1,6 +1,7 @@
 import { useCallback } from 'react';
 import menuIcon from '../../assets/hamburger.png';
 import data from '../../data.json';
+import { navArray } from '../../constants';
 import './style.scss';
 
 const Nav: React.FC = () => {
@@ -10,21 +11,21 @@ const Nav: React.FC = () => {
 
   return (
     <nav className='nav'>
-      <a className='nav_title' onClick={handleTitleClick}>
-        {data.name}
+      <a className='nav-title' onClick={handleTitleClick}>
+        {data?.name}
       </a>
 
-      <ul className='nav_list'>
-        {data.nav.map((item, index) => (
+      <ul className='nav-list'>
+        {navArray?.map((item, index) => (
           <li key={index}>
-            <a href={item?.key} rel='noreferrer'>
+            <a className='nav-link' href={item?.id}>
               {item?.name}
             </a>
           </li>
         ))}
       </ul>
 
-      <div className='nav_menu'>
+      <div className='nav-menu'>
         <img src={menuIcon} alt='menu' />
       </div>
     </nav>

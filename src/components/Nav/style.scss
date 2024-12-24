@@ -1,40 +1,40 @@
+@import '../../styles/index.scss';
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  padding: 3rem 0;
+  padding: 3rem 2rem;
 
-  .nav_title {
-    font-size: 1.5rem;
+  &-title {
+    @include heading;
   }
 
-  .nav_list {
+  &-list {
+    @include heading-secondary;
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     gap: 1.5rem;
-    font-size: 1.25rem;
+
+    .nav-link {
+      color: $heading_color;
+    }
   }
 
-  .nav_menu {
+  &-menu {
     display: none;
   }
 
-  @media (max-width: 425px) {
+  @include responsive('small') {
     padding: 2rem 2rem;
     width: 100%;
 
-    .nav_title {
-      font-size: 1.5rem;
-    }
-
-    .nav_list {
+    &-list {
       display: none;
     }
 
-    .nav_menu {
+    &-menu {
       display: block;
       height: 1.5rem;
       width: 1.5rem;
