@@ -3,10 +3,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 2rem;
+  padding: 3rem 10rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
 
   &-title {
     @include heading;
+    font-weight: 400;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   &-list {
@@ -26,7 +34,7 @@
     display: none;
   }
 
-  @include responsive('small') {
+  @include responsive('medium') {
     padding: 2rem 2rem;
     width: 100%;
 

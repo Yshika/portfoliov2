@@ -1,3 +1,8 @@
 {
-  "name": "Jane Doe"
+  "name": "Jane Doe",
+  "job": "Frontend Developer",
+  "linkedIn": "https://www.linkedin.com/in/",
+  "github": "https://www.github.com/",
+  "cvLink": "https://www.google.com",
+  "email": "abc@gmail.com"
 }
