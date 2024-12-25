@@ -3,10 +3,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 10rem 0;
+  padding: 3rem 10rem 1.5rem;
   position: fixed;
   width: 100%;
   top: 0;
+  background-color: $background_color;
+  box-shadow: 0px 0px 10px 0px $background_color_dark;
+  z-index: 1;
 
   &-title {
     @include heading;
@@ -35,7 +38,7 @@
   }
 
   @include responsive('medium') {
-    padding: 2rem 2rem;
+    padding: 2rem;
     width: 100%;
 
     &-list {

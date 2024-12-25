@@ -4,5 +4,12 @@
   "linkedIn": "https://www.linkedin.com/in/",
   "github": "https://www.github.com/",
   "cvLink": "https://www.google.com",
-  "email": "abc@gmail.com"
+  "email": "abc@gmail.com",
+  "about": {
+    "field": "Frontend Development",
+    "years": "2+",
+    "undergrad": "B.Sc. Bachelors Degree",
+    "postGrad": "M.Sc. Masters Degree",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus et nunc fermentum ultricies. Nullam nec purus et nunc fermentum ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus et nunc fermentum ultricies."
+  }
 }

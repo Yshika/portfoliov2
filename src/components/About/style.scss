@@ -1,0 +1,96 @@
+@import '../../styles/index.scss';
+
+.about {
+  min-height: 100dvh;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  gap: 8rem;
+
+  .heading-container {
+    display: grid;
+    place-items: center;
+
+    .know-more {
+      @include paragraph;
+    }
+
+    .heading {
+      @include heading;
+      font-size: 2.5rem;
+    }
+  }
+
+  &-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+    .about-pic {
+      width: 22rem;
+      height: 22rem;
+      border-radius: 20px;
+      overflow: hidden;
+
+      img {
+        filter: grayscale(100%);
+      }
+
+      @include responsive('medium') {
+        width: 15rem;
+        height: 15rem;
+      }
+    }
+
+    .about-overview {
+      width: 50%;
+      display: grid;
+      gap: 2rem;
+      justify-content: center;
+
+      p {
+        @include paragraph;
+      }
+
+      .about-box {
+        display: flex;
+        gap: 1rem;
+
+        .box {
+          border: 1px solid black;
+          border-radius: 20px;
+          padding: 2rem;
+          justify-items: center;
+          width: 50%;
+
+          .icon {
+            width: 2rem;
+            height: 2rem;
+          }
+
+          @include responsive('medium') {
+            width: 100%;
+          }
+        }
+
+        @include responsive('medium') {
+          flex-direction: column;
+        }
+      }
+
+      @include responsive('medium') {
+        width: 100%;
+        padding: 0 2rem;
+      }
+    }
+
+    @include responsive('medium') {
+      flex-direction: column;
+    }
+  }
+
+  @include responsive('medium') {
+    gap: 4rem;
+  }
+}

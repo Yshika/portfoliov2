@@ -14,8 +14,9 @@ const Summary: React.FC = () => {
 
         <div className='cta-container'>
           <button>Download CV</button>
-          <button className='cta-dark'>Contact Info</button>
+          <button aria-description='dark'>Contact Info</button>
         </div>
+
         <div className='social-links'>
           <a
             className='icon'
@@ -24,6 +25,7 @@ const Summary: React.FC = () => {
             rel='noreferrer'>
             <img src='/linkedin.png' alt='linkedin' />
           </a>
+
           <a
             className='icon'
             href={data?.github}

@@ -37,6 +37,16 @@ button {
   padding: 1rem 1.5rem;
   cursor: pointer;
 
+  &[aria-description='dark'] {
+    background-color: $background_color_dark;
+    color: $light_text;
+
+    &:hover {
+      background-color: $light_text;
+      color: $background_color_dark;
+    }
+  }
+
   &:hover {
     background-color: $background_color_dark;
     color: $light_text;

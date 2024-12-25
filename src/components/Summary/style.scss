@@ -5,7 +5,7 @@
   align-items: center;
   height: 100dvh;
   justify-content: center;
-  gap: 8rem;
+  gap: 6rem;
 
   .profile-pic {
     width: 25rem;
@@ -37,16 +37,6 @@
     .cta-container {
       display: flex;
       gap: 1rem;
-
-      .cta-dark {
-        background-color: $background_color_dark;
-        color: $light_text;
-
-        &:hover {
-          background-color: $light_text;
-          color: $background_color_dark;
-        }
-      }
     }
 
     .social-links {
@@ -62,7 +52,7 @@
 
   @include responsive('medium') {
     flex-direction: column;
-    gap: 4rem;
+    gap: 2rem;
 
     .profile-pic {
       width: 20rem;
