@@ -3,7 +3,7 @@ import data from '../../data.json';
 
 const About: React.FC = () => {
   return (
-    <div id='about' className='about'>
+    <section id='about' className='about'>
       <div className='heading-container'>
         <h3 className='know-more'>Get To Know More</h3>
         <h1 className='heading'>About Me</h1>
@@ -11,7 +11,7 @@ const About: React.FC = () => {
 
       <div className='about-content'>
         <div className='about-pic'>
-          <img src='/profile_pic.jpg' alt='profile' />
+          <img className='pic' src='/profile_pic.jpg' alt='profile' />
         </div>
 
         <div className='about-overview'>
@@ -38,7 +38,7 @@ const About: React.FC = () => {
           <p>{data?.about?.desc}</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

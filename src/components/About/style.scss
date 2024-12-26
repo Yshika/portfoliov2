@@ -1,7 +1,6 @@
 @import '../../styles/index.scss';
 
 .about {
-  min-height: 100dvh;
   display: grid;
   align-items: center;
   align-content: center;
@@ -33,7 +32,7 @@
       border-radius: 20px;
       overflow: hidden;
 
-      img {
+      .pic {
         filter: grayscale(100%);
       }
 
@@ -48,10 +47,6 @@
       display: grid;
       gap: 2rem;
       justify-content: center;
-
-      p {
-        @include paragraph;
-      }
 
       .about-box {
         display: flex;

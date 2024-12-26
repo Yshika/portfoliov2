@@ -52,3 +52,11 @@ button {
     color: $light_text;
   }
 }
+
+section {
+  height: 100dvh;
+}
+
+p {
+  @include paragraph;
+}

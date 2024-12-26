@@ -3,9 +3,9 @@ import './style.scss';
 
 const Summary: React.FC = () => {
   return (
-    <div className='summary'>
+    <section className='summary'>
       <div className='profile-pic'>
-        <img src='/profile_pic.jpg' alt='profile' />
+        <img src='/profile_pic.jpg' alt='profilePic' />
       </div>
       <div className='info'>
         <h3 className='greeting'>Hello I'm</h3>
@@ -35,7 +35,7 @@ const Summary: React.FC = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
