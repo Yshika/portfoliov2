@@ -1,13 +1,11 @@
 import './style.scss';
 import data from '../../data.json';
+import HeadSection from '../common/HeadSection';
 
 const About: React.FC = () => {
   return (
     <section id='about' className='about'>
-      <div className='heading-container'>
-        <h3 className='know-more'>Get To Know More</h3>
-        <h1 className='heading'>About Me</h1>
-      </div>
+      <HeadSection preHeading='Get To Know More' heading='About Me' />
 
       <div className='about-content'>
         <div className='about-pic'>

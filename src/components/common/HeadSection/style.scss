@@ -1,0 +1,15 @@
+@import '../../../styles/index.scss';
+
+.heading-container {
+  display: grid;
+  place-items: center;
+
+  .know-more {
+    @include paragraph;
+  }
+
+  .heading {
+    @include heading;
+    font-size: 2.5rem;
+  }
+}
