@@ -1,0 +1,73 @@
+@import '../../styles/index.scss';
+
+.about {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  gap: 8rem;
+
+  &-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+    .about-pic {
+      width: 22rem;
+      height: 22rem;
+      border-radius: 1.25rem;
+      overflow: hidden;
+
+      .pic {
+        filter: grayscale(100%);
+      }
+
+      @include responsive('medium') {
+        width: 15rem;
+        height: 15rem;
+      }
+    }
+
+    .about-overview {
+      width: 50%;
+      display: grid;
+      gap: 2rem;
+      justify-content: center;
+
+      .about-box {
+        display: flex;
+        gap: 1rem;
+
+        .box {
+          @include box;
+
+          .icon {
+            width: 2rem;
+            height: 2rem;
+          }
+
+          @include responsive('medium') {
+            width: 100%;
+          }
+        }
+
+        @include responsive('medium') {
+          flex-direction: column;
+        }
+      }
+
+      @include responsive('medium') {
+        width: 100%;
+        padding: 0 2rem;
+      }
+    }
+
+    @include responsive('medium') {
+      flex-direction: column;
+    }
+  }
+
+  @include responsive('medium') {
+    gap: 4rem;
+  }
+}

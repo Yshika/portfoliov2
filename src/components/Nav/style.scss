@@ -3,10 +3,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 2rem;
+  padding: 3rem 10rem 1.5rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: $background_color;
+  box-shadow: 0 0 0.625rem 0 $background_color_dark;
+  z-index: 1;
 
   &-title {
     @include heading;
+    font-weight: 400;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   &-list {
@@ -26,8 +37,8 @@
     display: none;
   }
 
-  @include responsive('small') {
-    padding: 2rem 2rem;
+  @include responsive('medium') {
+    padding: 2rem;
     width: 100%;
 
     &-list {

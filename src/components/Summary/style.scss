@@ -1,0 +1,61 @@
+@import '../../styles/index.scss';
+
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+
+  .profile-pic {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .info {
+    display: grid;
+    justify-items: center;
+    gap: 1.25rem;
+
+    .greeting {
+      @include paragraph;
+    }
+
+    .name {
+      @include heading;
+      font-size: 3rem;
+      line-height: 2rem;
+    }
+
+    .job {
+      @include sub-heading;
+      font-size: 1.5rem;
+    }
+
+    .cta-container {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 1rem;
+
+      .icon {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+
+  @include responsive('medium') {
+    flex-direction: column;
+    gap: 2rem;
+
+    .profile-pic {
+      width: 20rem;
+      height: 20rem;
+    }
+  }
+}
