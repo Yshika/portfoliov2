@@ -1,0 +1,40 @@
+@import '../../styles/index.scss';
+
+.experience {
+  @include flex-container(column);
+
+  .box-container {
+    @include flex-container(row, center, center, 2rem);
+    width: 100%;
+    padding: 0px 6rem;
+
+    .box {
+      @include box;
+      @include flex-container(column, flex-start, center, 2rem);
+      height: 100%;
+
+      .sub-heading {
+        @include sub-heading;
+      }
+      .skills-container {
+        @include flex-container(row, center, center, 0);
+        flex-wrap: wrap;
+        row-gap: 1rem;
+
+        .skills {
+          @include flex-container(row, flex-start, flex-start, 0.5rem);
+          width: 12rem;
+
+          .checkmark {
+            width: 2rem;
+            height: 2rem;
+          }
+        }
+      }
+    }
+
+    @include responsive('medium') {
+      flex-direction: column;
+    }
+  }
+}

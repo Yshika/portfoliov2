@@ -1,8 +1,7 @@
 @import '../../../styles/index.scss';
 
 .heading-container {
-  display: grid;
-  place-items: center;
+  @include flex-container(column, center, center, 0rem);
 
   .know-more {
     @include paragraph;
