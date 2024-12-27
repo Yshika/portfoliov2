@@ -1,10 +1,7 @@
 @import '../../styles/index.scss';
 
 .about {
-  display: grid;
-  align-items: center;
-  align-content: center;
-  gap: 8rem;
+  @include flex-container(column);
 
   &-content {
     display: flex;
@@ -29,10 +26,9 @@
     }
 
     .about-overview {
+      @include flex-container(column);
       width: 50%;
-      display: grid;
       gap: 2rem;
-      justify-content: center;
 
       .about-box {
         display: flex;

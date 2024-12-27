@@ -55,6 +55,12 @@ button {
 
 section {
   height: 100dvh;
+
+  @include responsive('medium') {
+    height: auto;
+    min-height: 100dvh;
+    padding: 2rem 0;
+  }
 }
 
 p {

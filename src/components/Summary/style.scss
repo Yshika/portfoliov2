@@ -1,10 +1,7 @@
 @import '../../styles/index.scss';
 
 .summary {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6rem;
+  @include flex-container();
 
   .profile-pic {
     width: 25rem;
@@ -14,8 +11,7 @@
   }
 
   .info {
-    display: grid;
-    justify-items: center;
+    @include flex-container(column);
     gap: 1.25rem;
 
     .greeting {
@@ -30,7 +26,6 @@
 
     .job {
       @include sub-heading;
-      font-size: 1.5rem;
     }
 
     .cta-container {

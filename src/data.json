@@ -12,5 +12,28 @@
     "undergrad": "B.Sc. Bachelors Degree",
     "postGrad": "M.Sc. Masters Degree",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus et nunc fermentum ultricies. Nullam nec purus et nunc fermentum ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus et nunc fermentum ultricies."
-  }
+  },
+  "experience": [
+    {
+      "heading": "Frontend Development",
+      "skills": {
+        "HTML": "Experienced",
+        "CSS": "Experienced",
+        "SASS": "Intermediate",
+        "JavaScript": "Experienced",
+        "React": "Experienced",
+        "Redux": "Basic",
+        "Material UI": "Intermediate"
+      }
+    },
+    {
+      "heading": "Backend Development",
+      "skills": {
+        "Node JS": "Basic",
+        "Express": "Basic",
+        "MongoDB": "Basic",
+        "Firebase": "Basic"
+      }
+    }
+  ]
 }
