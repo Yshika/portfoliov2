@@ -28,12 +28,12 @@ $breakpoints: (
   }
 }
 
-@mixin box {
+@mixin box($minWidth: 50%) {
   border: 1px solid black;
   border-radius: 1.25rem;
   padding: 2rem;
   justify-items: center;
-  min-width: 50%;
+  min-width: $minWidth;
 }
 
 @mixin flex-container(
