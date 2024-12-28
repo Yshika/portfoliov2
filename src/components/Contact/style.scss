@@ -1,0 +1,24 @@
+@import '../../styles/index.scss';
+
+.contact {
+  @include flex-container(column, center, center, 2rem);
+  height: 80dvh;
+
+  .box {
+    @include box(fit-content);
+    @include flex-container(row, center, center, 2rem);
+
+    @include responsive('medium') {
+      padding: 1rem;
+    }
+
+    .contact-box {
+      @include flex-container(row, flex-start, center, 0.5rem);
+
+      .img-box {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+}

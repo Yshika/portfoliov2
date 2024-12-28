@@ -1,13 +1,13 @@
-import { projectsArray } from '../../constants';
 import HeadSection from '../common/HeadSection';
 import './style.scss';
+import data from '../../data.json';
 
 const Projects = () => {
   return (
     <section className='projects' id='projects'>
       <HeadSection preHeading='Browse My Recent' heading='Projects' />
       <div className='box-container'>
-        {projectsArray?.map((project, index) => {
+        {data?.projects?.map((project, index) => {
           return (
             <div className='box' key={index}>
               <div className='img-box'>

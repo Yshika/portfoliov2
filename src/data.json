@@ -4,8 +4,9 @@
   "linkedIn": "https://www.linkedin.com/in/",
   "github": "https://www.github.com/",
   "cvLink": "https://www.google.com",
-  "email": "abc@gmail.com",
+  "email": "janedoe@gmail.com",
   "profilePic": "https://drive.google.com/uc?export=view&id=1kbYae5XTNf9F8B9UhzVlO2asFjPlS1VW",
+  "disclaimer": "Copyright 2024 Jane Doe. All rights reserved.",
   "about": {
     "field": "Frontend Development",
     "years": "2+",
@@ -34,6 +35,26 @@
         "MongoDB": "Basic",
         "Firebase": "Basic"
       }
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project 1",
+      "gitLink": "https://github.com",
+      "liveLink": "https://github.com",
+      "img": "project-1.png"
+    },
+    {
+      "title": "Project 2",
+      "gitLink": "https://github.com",
+      "liveLink": "https://github.com",
+      "img": "project-2.png"
+    },
+    {
+      "title": "Project 3",
+      "gitLink": "https://github.com",
+      "liveLink": "https://github.com",
+      "img": "project-3.png"
     }
   ]
 }
