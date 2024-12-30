@@ -1,0 +1,12 @@
+@import '../../styles/index.scss';
+
+.nav-container {
+  @include flex-container(column, center, center, 2rem);
+  padding-bottom: 1rem;
+
+  .nav-list {
+    @include responsive('medium') {
+      @include flex-container(row, center, center, 1rem);
+    }
+  }
+}

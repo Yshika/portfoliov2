@@ -1,0 +1,28 @@
+@import '../../styles/index.scss';
+
+.projects {
+  @include flex-container(column);
+  .box-container {
+    @include flex-container(row, center, center, 2rem);
+    flex-wrap: wrap;
+    .box {
+      @include box(20rem);
+      @include flex-container(column, flex-start, center, 1rem);
+
+      .img-box {
+        width: 15rem;
+        height: 15rem;
+        overflow: hidden;
+        border-radius: 1.25rem;
+      }
+
+      .btn-container {
+        @include flex-container(row, center, center, 1rem);
+
+        .btn {
+          width: 8rem;
+        }
+      }
+    }
+  }
+}
