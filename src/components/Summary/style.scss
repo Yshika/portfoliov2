@@ -47,6 +47,7 @@
   @include responsive('medium') {
     flex-direction: column;
     gap: 2rem;
+    padding-top: 4rem;
 
     .profile-pic {
       width: 20rem;

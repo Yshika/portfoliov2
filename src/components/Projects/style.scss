@@ -2,6 +2,7 @@
 
 .projects {
   @include flex-container(column);
+
   .box-container {
     @include flex-container(row, center, center, 2rem);
     flex-wrap: wrap;
@@ -24,5 +25,9 @@
         }
       }
     }
+  }
+
+  @include responsive('medium') {
+    gap: 2rem;
   }
 }

@@ -4,7 +4,9 @@
   @include flex-container(column);
 
   .box-container {
-    @include flex-container(row, center, center, 2rem);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
     width: 100%;
     padding: 0px 6rem;
 
@@ -34,7 +36,12 @@
     }
 
     @include responsive('medium') {
-      flex-direction: column;
+      grid-template-columns: 1fr;
+      padding: 0px 2rem;
     }
+  }
+
+  @include responsive('medium') {
+    gap: 2rem;
   }
 }
