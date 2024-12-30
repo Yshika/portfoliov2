@@ -16,16 +16,14 @@ const Projects = () => {
               <h1>{project?.title}</h1>
               <div className='btn-container'>
                 <button
-                  onClick={e => {
-                    e.preventDefault();
+                  onClick={() => {
                     window.open(project?.gitLink, '_blank');
                   }}
                   className='btn'>
                   Github
                 </button>
                 <button
-                  onClick={e => {
-                    e.preventDefault();
+                  onClick={() => {
                     window.open(project?.liveLink, '_blank');
                   }}
                   className='btn'>
