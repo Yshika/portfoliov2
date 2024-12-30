@@ -9,14 +9,18 @@ const About: React.FC = () => {
 
       <div className='about-content'>
         <div className='about-pic'>
-          <img className='pic' src='/profile_pic.jpg' alt='profile' />
+          <img
+            className='pic'
+            src='/portfoliov2/profile_pic.jpg'
+            alt='profile'
+          />
         </div>
 
         <div className='about-overview'>
           <div className='about-box'>
             <div className='box'>
               <div className='icon'>
-                <img src='/experience.png' alt='exp' />
+                <img src='/portfoliov2/experience.png' alt='exp' />
               </div>
               <h3 className='title'>Experience</h3>
               <p className='exp'>{data?.about?.years} years</p>
@@ -25,7 +29,7 @@ const About: React.FC = () => {
 
             <div className='box'>
               <div className='icon'>
-                <img src='/education.png' alt='education' />
+                <img src='/portfoliov2/education.png' alt='education' />
               </div>
               <h3 className='title'>Education</h3>
               <p className='exp'>{data?.about?.undergrad}</p>

@@ -5,7 +5,7 @@ const Summary: React.FC = () => {
   return (
     <section className='summary'>
       <div className='profile-pic'>
-        <img src='/profile_pic.jpg' alt='profilePic' />
+        <img src='/portfoliov2/profile_pic.jpg' alt='profilePic' />
       </div>
       <div className='info'>
         <h3 className='greeting'>Hello I'm</h3>
@@ -23,7 +23,7 @@ const Summary: React.FC = () => {
             href={data?.linkedIn}
             target='_blank'
             rel='noreferrer'>
-            <img src='/linkedin.png' alt='linkedin' />
+            <img src='/portfoliov2/linkedin.png' alt='linkedin' />
           </a>
 
           <a
@@ -31,7 +31,7 @@ const Summary: React.FC = () => {
             href={data?.github}
             target='_blank'
             rel='noreferrer'>
-            <img src='/github.png' alt='github' />
+            <img src='/portfoliov2/github.png' alt='github' />
           </a>
         </div>
       </div>
