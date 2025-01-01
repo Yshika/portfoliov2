@@ -5,11 +5,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: none;
 }
 
 body {
   font-family: 'Poppins', serif;
   background-color: $background_color;
+}
+
+body:hover {
+  cursor: none;
 }
 
 html {
@@ -18,7 +23,6 @@ html {
 
 a {
   text-decoration: none;
-  cursor: pointer;
 
   &:hover {
     text-decoration: underline;
@@ -35,7 +39,6 @@ button {
   border: 1px solid $background_color_dark;
   border-radius: 1.25rem;
   padding: 1rem 1.5rem;
-  cursor: pointer;
   background-color: $light_text;
 
   &[aria-description='dark'] {
@@ -61,4 +64,26 @@ section {
 
 p {
   @include paragraph;
+}
+
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: $cursor_color;
+  position: absolute;
+  pointer-events: none;
+  transition: transform 0.1s ease-in-out;
+  z-index: 1000;
+}
+
+.cursor-dot-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid $cursor_color;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  transition: transform 0.15s ease-in-out;
+  z-index: 999;
 }
