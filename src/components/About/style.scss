@@ -40,6 +40,7 @@
           .icon {
             width: 2rem;
             height: 2rem;
+            margin: auto;
           }
 
           @include responsive('medium') {

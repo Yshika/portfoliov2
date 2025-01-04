@@ -23,7 +23,7 @@ const Experience = () => {
                     <div className='checkmark'>
                       <img src='checkmark.png' alt='check' />
                     </div>
-                    <div>
+                    <div className='skill-name'>
                       <h3>{skill}</h3>
                       <p>{exp?.skills?.[skill]}</p>
                     </div>
