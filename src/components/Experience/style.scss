@@ -25,7 +25,7 @@
 
         .skills {
           @include flex-container(row, flex-start, flex-start, 0.5rem);
-          width: 12rem;
+          width: 13rem;
 
           .checkmark {
             width: 2rem;

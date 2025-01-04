@@ -1,18 +1,18 @@
 {
-  "name": "Jane Doe",
-  "job": "Frontend Developer",
-  "linkedIn": "https://www.linkedin.com/",
-  "github": "https://www.github.com/",
-  "cvLink": "https://www.google.com",
-  "email": "janedoe@gmail.com",
-  "profilePic": "https://drive.google.com/uc?export=view&id=1kbYae5XTNf9F8B9UhzVlO2asFjPlS1VW",
-  "disclaimer": "Copyright 2024 Jane Doe. All rights reserved.",
+  "name": "Yshika Agarwal",
+  "job": "Software Developer",
+  "linkedIn": "https://linkedin.com/in/yshikaagarwal",
+  "github": "https://github.com/Yshika",
+  "cvLink": "",
+  "email": "yshika0581@gmail.com",
+  "profilePic": "",
+  "disclaimer": "Copyright 2024 Yshika Agarwal. All rights reserved.",
   "about": {
     "field": "Frontend Development",
-    "years": "2+",
-    "undergrad": "B.Sc. Bachelors Degree",
-    "postGrad": "M.Sc. Masters Degree",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus et nunc fermentum ultricies. Nullam nec purus et nunc fermentum ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus et nunc fermentum ultricies."
+    "years": "3+",
+    "undergrad": "Bachelor of Technology (Computer Science)",
+    "postGrad": "",
+    "desc": "Experienced frontend developer with 3+ years of expertise. Skilled in React JS and responsive design. Proven track record of delivering high-quality front-end solutions aligned with business goals. Collaborating with more than 10 developers with a passion for exceptional user interfaces. Ready to elevate your product with expertise and professionalism."
   },
   "experience": [
     {
@@ -20,41 +20,37 @@
       "skills": {
         "HTML": "Experienced",
         "CSS": "Experienced",
-        "SASS": "Intermediate",
+        "SCSS": "Experienced",
         "JavaScript": "Experienced",
-        "React": "Experienced",
-        "Redux": "Basic",
+        "TypeScript": "Intermediate",
+        "ReactJS": "Experienced",
+        "Redux": "Intermediate",
         "Material UI": "Intermediate"
       }
     },
     {
-      "heading": "Backend Development",
+      "heading": "Soft Skills",
       "skills": {
-        "Node JS": "Basic",
-        "Express": "Basic",
-        "MongoDB": "Basic",
-        "Firebase": "Basic"
+        "Adaptability": "Excellent",
+        "Problem Solving": "Strong",
+        "Teamwork": "Excellent",
+        "Self Learner": "Strong",
+        "Communication": "Excellent"
       }
     }
   ],
   "projects": [
     {
-      "title": "Project 1",
-      "gitLink": "https://github.com",
-      "liveLink": "https://github.com",
-      "img": "project-1.png"
+      "title": "Weather App",
+      "gitLink": "https://github.com/Yshika/weather",
+      "liveLink": "https://weather-by-yshika.netlify.app/",
+      "img": "weatherApp.png"
     },
     {
-      "title": "Project 2",
-      "gitLink": "https://github.com",
-      "liveLink": "https://github.com",
-      "img": "project-2.png"
-    },
-    {
-      "title": "Project 3",
-      "gitLink": "https://github.com",
-      "liveLink": "https://github.com",
-      "img": "project-3.png"
+      "title": "Job Portal",
+      "gitLink": "https://github.com/Yshika/job-portal",
+      "liveLink": "https://ourjobs.netlify.app/",
+      "img": "ourJobs.png"
     }
   ]
 }
