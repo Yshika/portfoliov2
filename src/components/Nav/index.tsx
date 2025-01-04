@@ -1,17 +1,12 @@
-import { useCallback } from 'react';
 import menuIcon from '../../assets/hamburger.png';
 import data from '../../data.json';
 import { navArray } from '../../constants';
 import './style.scss';
 
 const Nav: React.FC = () => {
-  const handleTitleClick = useCallback(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <nav className='nav'>
-      <a className='nav-title' onClick={handleTitleClick}>
+      <a className='nav-title' href='#'>
         {data?.name}
       </a>
 

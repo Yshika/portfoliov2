@@ -3,7 +3,7 @@
   "job": "Software Developer",
   "linkedIn": "https://linkedin.com/in/yshikaagarwal",
   "github": "https://github.com/Yshika",
-  "cvLink": "",
+  "cvLink": "https://drive.google.com/file/d/1iS8ckKv2qxNgDFEyjglqlU6KFllFRvAe/view?usp=sharing",
   "email": "yshika0581@gmail.com",
   "profilePic": "",
   "disclaimer": "Copyright 2024 Yshika Agarwal. All rights reserved.",
@@ -50,7 +50,7 @@
       "title": "Job Portal",
       "gitLink": "https://github.com/Yshika/job-portal",
       "liveLink": "https://ourjobs.netlify.app/",
-      "img": "ourJobs.png"
+      "img": "/ourJobs.png"
     }
   ]
 }

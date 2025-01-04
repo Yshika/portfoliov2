@@ -1,7 +1,7 @@
 @import '../../styles/index.scss';
 
 .projects {
-  @include flex-container(column);
+  @include flex-container(column, center, center, 4rem);
 
   .box-container {
     @include flex-container(row, center, center, 2rem);
@@ -11,10 +11,14 @@
       @include flex-container(column, flex-start, center, 1rem);
 
       .img-box {
-        width: 15rem;
-        height: 15rem;
+        width: 35rem;
         overflow: hidden;
         border-radius: 1.25rem;
+        aspect-ratio: 3 / 2;
+
+        @include responsive('medium') {
+          width: 20rem;
+        }
       }
 
       .btn-container {

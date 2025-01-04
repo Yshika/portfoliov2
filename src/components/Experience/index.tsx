@@ -21,7 +21,7 @@ const Experience = () => {
                 {Object.keys(exp?.skills)?.map((skill, index) => (
                   <div className='skills' key={index}>
                     <div className='checkmark'>
-                      <img src='/portfoliov2/checkmark.png' alt='check' />
+                      <img src='checkmark.png' alt='check' />
                     </div>
                     <div>
                       <h3>{skill}</h3>
