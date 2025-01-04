@@ -17,7 +17,11 @@
         aspect-ratio: 3 / 2;
 
         @include responsive('medium') {
-          width: 20rem;
+          width: 25rem;
+        }
+
+        @include responsive('small') {
+          width: 15rem;
         }
       }
 

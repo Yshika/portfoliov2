@@ -67,6 +67,7 @@ p {
 }
 
 .cursor-dot {
+  display: block;
   width: 5px;
   height: 5px;
   border-radius: 50%;
@@ -75,9 +76,14 @@ p {
   pointer-events: none;
   transition: transform 0.1s ease-in-out;
   z-index: 1000;
+
+  @include responsive('medium') {
+    display: none;
+  }
 }
 
 .cursor-dot-outline {
+  display: block;
   width: 30px;
   height: 30px;
   border: 2px solid $cursor_color;
@@ -86,4 +92,8 @@ p {
   pointer-events: none;
   transition: transform 0.15s ease-in-out;
   z-index: 999;
+
+  @include responsive('medium') {
+    display: none;
+  }
 }

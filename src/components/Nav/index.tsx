@@ -1,4 +1,3 @@
-import menuIcon from '../../assets/hamburger.png';
 import data from '../../data.json';
 import { navArray } from '../../constants';
 import './style.scss';
@@ -19,10 +18,6 @@ const Nav: React.FC = () => {
           </li>
         ))}
       </ul>
-
-      <div className='nav-menu'>
-        <img src={menuIcon} alt='menu' />
-      </div>
     </nav>
   );
 };

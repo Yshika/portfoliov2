@@ -32,23 +32,12 @@
       color: $heading_color;
     }
   }
-
-  &-menu {
-    display: none;
-  }
-
   @include responsive('medium') {
     padding: 1rem 2rem;
     width: 100%;
 
     &-list {
       display: none;
-    }
-
-    &-menu {
-      display: block;
-      height: 1.5rem;
-      width: 1.5rem;
     }
   }
 }

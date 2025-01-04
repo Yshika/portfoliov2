@@ -3,6 +3,7 @@
 .nav-container {
   @include flex-container(column, center, center, 2rem);
   padding-bottom: 1rem;
+  text-align: center;
 
   .nav-list {
     @include responsive('medium') {
