@@ -51,6 +51,12 @@
       "gitLink": "https://github.com/Yshika/job-portal",
       "liveLink": "https://ourjobs.netlify.app/",
       "img": "/ourJobs.png"
+    },
+    {
+      "title": "Bindiya Hair & Beauty Salon",
+      "gitLink": "https://github.com/Yshika/portfoliov2",
+      "liveLink": "https://bindiya.netlify.app/",
+      "img": "/bindiya.png"
     }
   ]
 }
